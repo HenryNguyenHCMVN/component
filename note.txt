@@ -1,0 +1,33 @@
+1. Cài đặt Project:
+    npx create-react-app ten-app
+2. chạy Project
+    2.1/ mở terminal ngay tại file package.json
+    2.2/ gõ lệnh: npm run start
+3. Tài liệu về reactJS:
+4. flow code reactJS: index.html => index.js => app.js
+5. reactJS sẽ không hiểu HTML, mà nó chỉ hiểu JSX (class => class.jsx)
+6. lý do dùng component là: 
+    - dễ quản lý (chia để trị)
+    - tái sử dụng (ưu tiên hàng đầu).
+7. Điều kiện để tạo ra một component:
+    - tái sử dụng (ưu tiên hàng đầu)
+    - dễ quản lý (chia để trị)
+8. Có 2 dạng component:
+    - class
+    - function
+9. Data-binding: là cách đưa biến hay thuộc tính js ra ngoài html
+10. state: 
+    - dùng để những dữ liệu của component
+    - giúp đồng bộ UI và Value của component
+
+
+
+
+
+BONUS: 
+    1. Một trang webside thường có 2 dạng:
+        a/ singel page application  (chuyển trang mà không bị loading) good-performance
+        b/ multiple page application    (chuyển trang mà bị loading)  
+    2. Về SEO thì multiple page application tốt hơn single page.
+    3. Về reactJS (single page application) thì không SEO tốt nhưng NEXJS hỗ trợ reactJS tốt nhất có thể (link: https://nextjs.org/)
+    4. flow code reactJS: index.html => index.js => app.js
